@@ -42,3 +42,9 @@ achievements → Certifications & milestones
 contact      → Contact info  
 clear        → Clear the terminal  
 help         → List all commands  
+```
+
+## 📄 License & Usage
+> ⚠️ This is my personal portfolio. Feel free to view and get inspired, but please don’t copy it directly without permission or attribution.
+
+> If you'd like to build something similar, you're welcome to fork the repo and make it your own — just don’t clone it as-is. ✌️
