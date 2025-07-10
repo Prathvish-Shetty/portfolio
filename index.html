@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prathvish's Terminal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="terminal">
+    <div class="header">
+      <div class="buttons">
+        <span class="btn red"></span>
+        <span class="btn yellow"></span>
+        <span class="btn green"></span>
+      </div>
+      <span class="title">prathvish@portfolio:~</span>
+      <button id="soundToggle">🔊</button>
+    </div>
+
+    <div id="output" class="output"></div>
+
+    <audio id="typeSound" src="type-sound.wav" preload="auto" loop></audio>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>

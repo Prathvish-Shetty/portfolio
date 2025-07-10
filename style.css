@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'Cascadia Code', Consolas;
+  overflow: hidden;
+}
+
+.terminal {
+  width: 100%;
+  height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: #161b22;
+  box-shadow: 0 0 10px #000;
+  border-radius: 6px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red {
+  background: #ff5f56;
+}
+
+.yellow {
+  background: #ffbd2e;
+}
+
+.green {
+  background: #27c93f;
+}
+
+.title {
+  font-size: 0.9rem;
+  color: #0fe996;
+}
+
+#soundToggle {
+  background: transparent;
+  border: 1px solid #30363d;
+  color: #c9d1d9;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.output {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-right: 4px;
+  font-size: 1rem;
+  white-space: pre-wrap;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.prompt {
+  color: #58a6ff;
+}
+
+.input-line input {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  caret-color: #DD99DD;
+}
+
+.input-line input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px #161b22 inset !important;
+  -webkit-text-fill-color: #c9d1d9 !important;
+}
+
+.primary {
+  color: #e3ae46;
+  /* Fandango (vivid purple) from palette for headings */
+  font-weight: normal;
+  /* Remove bold for sharper, cleaner look */
+}
+
+.accent {
+  color: #e7e711;
+  /* Vibrant orange (sharper shade of buff) for commands */
+}
+
+.neutral {
+  color: #c4a7b8;
+  /* Crisp light gray for general text and tech stacks */
+}
+
+.muted {
+  color: #b0b0b0;
+  /* Sharp medium gray for secondary text */
+}
+
+a {
+  color: #76b476;
+  /* Vivid green for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #66FF66;
+  /* Brighter green for hover */
+}
