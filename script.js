@@ -32,36 +32,42 @@ const commands = {
   ],
 
   projects: [
-    "<span class='primary'>1. Lifeline</span>  – <a href='https://github.com/Prathvish-Shetty/Lifeline' target='_blank'>GitHub</a>",
+    "<span class='primary'>1. LangMate</span> – <a href='https://github.com/YOUR_USERNAME/LangMate' target='_blank'>GitHub</a>",
+    "◦ LangMate is a <span class='neutral'>language exchange platform</span> where users can learn new languages by chatting and video calling with people worldwide.",
+    "◦ Features <span class='muted'>real-time messaging, typing indicators, reactions, group calls, screen sharing, and recording</span> powered by <a href='https://getstream.io' target='_blank'>Stream API</a>.",
+    "◦ <span class='accent'>Tech Stack</span>: React.js, Node.js, Express.js, MongoDB, Tailwind CSS, TanStack Query, Zustand, Stream API, Render",
+    "",
+
+    "<span class='primary'>2. Lifeline</span>  – <a href='https://github.com/Prathvish-Shetty/Lifeline' target='_blank'>GitHub</a>",
     "◦ Lifeline is a <span class='neutral'>blood ecosystem management platform</span> that connects blood banks, individual donors, and hospitals.",
     "◦ Features <span class='muted'>role-based dashboards</span> tailored to each user type.",
     "◦ <span class='accent'>Tech Stack</span>: React.js, Node.js, Express.js, MongoDB, Mongoose, Tailwind CSS, DaisyUI, Recoil, Render",
     "",
 
-    "<span class='primary'>2. Chat-It</span>  – <a href='https://github.com/Prathvish-Shetty/chat-it' target='_blank'>GitHub</a>",
+    "<span class='primary'>3. Chat-It</span>  – <a href='https://github.com/Prathvish-Shetty/chat-it' target='_blank'>GitHub</a>",
     "◦ A secure and responsive <span class='neutral'>real-time chat application</span> enabling private conversations between users.",
     "◦ Supports <span class='muted'>instant text and image messaging</span>.",
     "◦ <span class='accent'>Tech Stack</span>: React.js, Node.js, Express.js, MongoDB, Socket.IO, Zustand, Tailwind CSS, DaisyUI, Cloudinary, Render",
     "",
 
-    "<span class='primary'>3. Blog Website</span>  – <a href='https://github.com/Prathvish-Shetty/Blog' target='_blank'>GitHub</a>",
+    "<span class='primary'>4. Blog Website</span>  – <a href='https://github.com/Prathvish-Shetty/Blog' target='_blank'>GitHub</a>",
     "◦ A full-featured <span class='neutral'>blog platform</span> where users can sign up, log in, and <span class='muted'>create, read, update, delete posts</span>.",
     "◦ Image upload support using Cloudinary.",
     "◦ <span class='accent'>Tech Stack</span>: React.js, Appwrite, Tailwind CSS, TinyMCE, Cloudinary, Redux Toolkit, Vercel",
     "",
 
-    "<span class='primary'>4. Memo</span>  – <a href='https://github.com/Prathvish-Shetty/Memo' target='_blank'>GitHub</a>",
+    "<span class='primary'>5. Memo</span>  – <a href='https://github.com/Prathvish-Shetty/Memo' target='_blank'>GitHub</a>",
     "◦ Memo is a simple <span class='neutral'>memory-saving web app</span> allowing users to create, manage, and share memos online.",
     "◦ Lightweight and user-friendly experience.",
     "◦ <span class='accent'>Tech Stack</span>: React.js, Node.js, Express.js, MongoDB, Mongoose, Tailwind CSS, DaisyUI, Vercel",
     "",
 
-    "<span class='primary'>5. Typing Speed Test</span>  – <a href='https://github.com/Prathvish-Shetty/typing-test' target='_blank'>GitHub</a>",
+    "<span class='primary'>6. Typing Speed Test</span>  – <a href='https://github.com/Prathvish-Shetty/typing-test' target='_blank'>GitHub</a>",
     "◦ A fast and interactive web app to test typing speed with real-time <span class='neutral'>WPM, accuracy, and error tracking</span>.",
     "◦ <span class='accent'>Tech Stack</span>: React, TypeScript, Tailwind CSS, Framer Motion, Custom Hooks",
     "",
 
-    "<span class='primary'>6. ATM Machine</span>  – <a href='https://github.com/Prathvish-Shetty/oop-mp' target='_blank'>GitHub</a>",
+    "<span class='primary'>7. ATM Machine</span>  – <a href='https://github.com/Prathvish-Shetty/oop-mp' target='_blank'>GitHub</a>",
     "◦ A Java-based console application simulating ATM operations using <span class='neutral'>Object-Oriented Programming principles</span>.",
     "◦ <span class='accent'>Tech Stack</span>: Java, OOP, File Handling"
   ]
